@@ -46,8 +46,8 @@ function coloring() {
       $(this).addClass("present");
     } else {
       $(this).removeClass("past");
-      $(this).removeClass("future");
-      $(this).addClass("present");
+      $(this).removeClass("present");
+      $(this).addClass("future");
     }
   });
 }
